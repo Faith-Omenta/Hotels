@@ -1,0 +1,403 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.image{
+background-image:url(image.jpg);
+background-size: 1400px 600px;
+ /* height: 60%; */
+background-repeat: no-repeat;
+position: relative;
+/* background-image: cover; */
+}
+/* .pic img{
+    height: 80px;
+    width: 100%;
+} */
+
+.nav,ul,li{
+    display: flex;
+    padding-left: 100px;
+    color: rgb(17, 15, 17);
+  }
+.service{
+/* margin-top: 30%; */
+padding-left: 40%;
+/* padding-bottom: 50%; */
+}
+.frien{
+    margin-top: 30%;
+    text-decoration-color: beige;
+
+}
+
+.butt{
+    display: flex;
+    /* margin-bottom: 20%; */
+    margin-top: 20%;
+}
+.head{
+    /* padding-bottom: 70%; */
+}
+.hotels img{
+    width: 400px;
+    height: 200px;
+    
+}
+.hotels{
+    display: flex;
+}
+.facil{
+padding-left: 40%;
+}
+.icon img{
+    height: 50px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    /* padding-left: 5%; */
+    /* margin-left: 15%;
+    padding-left: 15%; */
+}
+.icon{
+    display: flex;
+    padding-left: 40px;
+    gap: 60px;
+    
+}
+.icons img{
+height: 50px;
+width: 50px;
+gap: 60px;
+/* margin-left: 15%;
+padding-left: 20%; */
+
+}
+.icons{
+    display: flex;
+    padding: 40px;
+    gap: 60px;
+
+}
+.imgicon{
+    /* display: flex;  */
+}
+.room{
+    padding-left: 40%;
+    padding-top: 10%;
+
+}
+.lorem{
+    padding-right: 20%;
+}
+.bed{
+    /* display: flex; */
+    gap: 9%;
+    padding-left: 25px;
+    /* display: flex; */
+        padding-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+}
+.bed img{
+    width:300px ;
+    height: 200px;
+    gap: 9%;
+        display: flex;
+        padding-top: 10%;
+        /* display: grid; */
+        grid-template-columns: repeat(4, 1fr);
+        grid:12% ;
+
+}
+.beds{
+    display: flex;
+    padding-top: 10%;
+    /* display: grid; */
+    grid-template-columns: repeat(4, 1fr);
+    grid:12% ;
+    gap: 9%;
+
+}
+.beds img{
+    width:300px ;
+    height:200px ;
+
+}
+.ipsum{
+    padding-left: 35%;
+    padding-top: 5%;
+}
+.meal{
+    display: flex;
+    gap: 20%;
+    padding-top: 5%;
+
+}
+.meal img{
+    height: 200px;
+    width: 200px;
+}
+.meals{
+display: flex;
+ padding-top: 5%; 
+ gap: 20%;
+}
+.meals img{
+    height: 200px;
+    width: 200px;
+}
+.frenc{
+    display: flex;
+    padding-top: 10%;
+}
+.phot.img{
+    height: 100px;
+    width: 100px;
+}
+.button{
+    display: flex;
+    padding-left: 60%;
+    gap: 20%;
+}
+_#chos{
+    /* padding-left: 50% */
+    padding-top: 10%;
+}
+
+body{
+    background-color: lightgrey;
+}
+#most{
+    padding-left: 30px;
+}
+.hotels{
+    padding-top:10%;
+}
+.dolor img{
+height:100px ;
+width:100px ;
+}.amet{
+    display: flex;
+    padding-top: 10%;
+}
+.back{
+    text-align: center;
+    background-color: blue;
+}
+.heading{
+    display: flex;
+}
+.con{
+    display: flex;
+}
+.footer{
+display: flex;
+gap: 12%;
+
+}
+@media (min-width:481px){
+
+    image{
+        background-image:url(image.jpg);
+        background-size: 400px 200px;
+         /* height: 60%; */
+        background-repeat: no-repeat;
+        position: relative;
+        /* background-image: cover; */
+        }
+        /* .pic img{
+            height: 80px;
+            width: 100%;
+        } */
+        
+        .nav,ul,li{
+            display: flex;
+            padding-left: 100px;
+            color: rgb(17, 15, 17);
+          }
+        .service{
+        /* margin-top: 30%; */
+        padding-left: 15%;
+        /* padding-bottom: 50%; */
+        }
+        .frien{
+            margin-top: 15%;
+            text-decoration-color: beige;
+        
+        }
+        
+        .butt{
+            display: flex;
+            /* margin-bottom: 20%; */
+            margin-top: 10%;
+        }
+        .head{
+            /* padding-bottom: 70%; */
+        }
+        .hotels img{
+            width: 100px;
+            height: 100px;
+            
+        }
+        .hotels{
+            display: flex;
+        }
+        .facil{
+        padding-left: 15%;
+        }
+        .icon img{
+            height: 50px;
+            width: 50px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 50px;
+            /* padding-left: 5%; */
+            /* margin-left: 15%;
+            padding-left: 15%; */
+        }
+        .icon{
+            display: flex;
+            padding-left: 40px;
+            gap: 60px;
+            
+        }
+        .icons img{
+        height: 50px;
+        width: 50px;
+        gap: 60px;
+        /* margin-left: 15%;
+        padding-left: 20%; */
+        
+        }
+        .icons{
+            display: flex;
+            padding: 40px;
+            gap: 60px;
+        
+        }
+        .imgicon{
+            /* display: flex;  */
+        }
+        .room{
+            padding-left: 5%;
+            padding-top: 5%;
+        
+        }
+        .lorem{
+            padding-right: 5%;
+        }
+        .bed{
+            /* display: flex; */
+            gap: 4%;
+            padding-left: 15px;
+            /* display: flex; */
+                padding-top: 4%;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+        
+        }
+        .bed img{
+            width:100px ;
+            height: 100px;
+            gap: 4%;
+                display: flex;
+                padding-top: 4%;
+                /* display: grid; */
+                grid-template-columns: repeat(4, 1fr);
+                grid:4% ;
+        
+        }
+        .beds{
+            display: flex;
+            padding-top: 10%;
+            /* display: grid; */
+            grid-template-columns: repeat(4, 1fr);
+            grid:4% ;
+            gap: 3%;
+        
+        }
+        .beds img{
+            width:300px ;
+            height:200px ;
+        
+        }
+        .ipsum{
+            padding-left: 10%;
+            padding-top: 2%;
+        }
+        .meal{
+            display: flex;
+            gap: 15%;
+            padding-top: 3%;
+        
+        }
+        .meal img{
+            height: 80px;
+            width: 80px;
+        }
+        .meals{
+        display: flex;
+         padding-top: 2%; 
+         gap: 10%;
+        }
+        .meals img{
+            height: 70px;
+            width: 70px;
+        }
+        .frenc{
+            display: flex;
+            padding-top: 4%;
+        }
+        .phot.img{
+            height: 40px;
+            width: 40px;
+        }
+        .button{
+            display: flex;
+            /* padding-left: 20%; */
+            /* gap: 10%; */
+        }
+        _#chos{
+            /* padding-left: 50% */
+            padding-top: 4%;
+        }
+        
+        body{
+            background-color: lightgrey;
+        }
+        #most{
+            padding-left: 15px;
+        }
+        .hotels{
+            padding-top:4%;
+        }
+        .dolor img{
+        height:40px ;
+        width:40px ;
+        }.amet{
+            display: flex;
+            padding-top: 4%;
+        }
+        .back{
+            text-align: center;
+            background-color: blue;
+        }
+        .heading{
+            /* display: flex; */
+        }
+        .con{
+            display: flex;
+        }
+        .footer{
+        display: flex;
+        gap: 4%;
+        
+        }
+}
+
+ 
+
+
