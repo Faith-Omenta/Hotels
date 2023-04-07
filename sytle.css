@@ -19,12 +19,13 @@ position: relative;
   }
 .service{
 
-padding-left: 40%;
+padding-left: 30%;
 
 }
 .frien{
-    margin-top: 30%;
-    text-decoration-color: beige;
+    margin-top: 20%;
+   color: #fff;
+   font-size: 30px;
 
 }
 
@@ -57,6 +58,14 @@ padding-top: 10%;
     grid-template-columns: repeat(4,1fr);
     gap: 50px;
     
+}
+.button{
+    /* display: flex; */
+    margin:30px 50px;
+    padding: 30px 45px;
+    font-weight: bold;
+    /* background-color: rgb(0, 38, 255); */
+    border-radius: 10px;
 }
 .icon{
     display: flex;
@@ -124,12 +133,13 @@ gap: 60px;
     background-color: rgb(0, 38, 255);
     border-radius: 10px;
 }
-.butn{
+.butt{
     margin:20px 40px;
     padding: 10px 15px;
     font-weight: bold;
     background-color: rgb(218, 219, 223);
     border-radius: 10px;
+    /* display: flex; */
 }
 .b{
 display: flex;
@@ -164,7 +174,11 @@ display: flex;
 }
 .frenc{
     display: flex;
-    padding-top: 10%; 
+    padding-top: 2%; 
+}
+.client{
+    padding-top: 3%;
+    padding-left: 35%;
 }
 .phot.img{
     height: 100px;
@@ -174,19 +188,11 @@ display: flex;
     display: flex;
     
     gap: 40%;
-   
-    
-}
+   }
 _.chos{
     padding-left: 50%;
     padding-top: 10%;
-   
-}
-
-.dolor{
-    padding-left: 30%;
-}
-
+   }
 body{
     background-color: lightgrey;
 }
@@ -224,54 +230,28 @@ gap: 12%;
 }
 
 @media only screen and(max-width:400px) {
-    *{
-        padding: 0px;
-        margin: 0px;
-    }
-    .image{
-    background-image:url(image.jpg);
+   .image{
     background-size: 400px 200px;
-    
-    background-repeat: no-repeat;
-    position: relative;
-    
     }
-    
-    
     .nav,ul,li{
-        display: flex;
-        padding-left: 100px;
-        color: rgb(17, 15, 17);
-      }
+      padding-left: 100px;
+        }
     .service{
-    
-    padding-left: 20px;
-    
+     padding-left: 20px;
     }
     .frien{
         margin-top: 20px;
-        text-decoration-color: beige;
-    
-    }
-    
+       }
     .butt{
-        
-        gap: 20px;
-        margin-bottom: 20px;
+    gap: 20px;
+      margin-bottom: 20px;
         padding-left: 20px;
-        
-    }
-    .head{
-       
-    }
+        }
     .hotels img{
         width: 200px;
         height: 100px;
-        
-    }
-    .hotels{
-        display: flex;
-    }
+         }
+    
     .facil{
     padding-left: 20px;
     padding-top: 10px;
@@ -279,17 +259,12 @@ gap: 12%;
     .icon img{
         height: 30px;
         width: 30px;
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 30px;
-        
-    }
+         gap: 30px;
+        }
     .icon{
-        display: flex;
-        padding-left: 20px;
+       padding-left: 20px;
         gap: 30px;
-        
-    }
+        }
     .icons img{
     height: 20px;
     width: 20px;
@@ -297,82 +272,62 @@ gap: 12%;
     
     }
     .icons{
-        display: flex;
-        padding: 20px;
+       padding: 20px;
         gap: 30px;
     
     }
-    .imgicon{
-        
-    }
-    .room{
-        padding-left: 10%;
-        padding-top: 10%;
+     .room{
+        padding-left: 3%;
+        padding-top: 3%;
     
     }
     .lorem{
         padding-right: 10%;
     }
     .bed{
-       
-        gap: 9%;
+       gap: 9%;
         padding-left: 25px;
-        
-            padding-top: 10%;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-    
+        padding-top: 10%;
+           
+           
     }
     .bed img{
         width:300px ;
         height: 200px;
         gap: 9%;
-            display: flex;
-            padding-top: 10%;
-            
-            grid-template-columns: repeat(4, 1fr);
-            grid:12% ;
+        padding-top: 10%;
+        grid:12% ;
     
     }
     .beds{
-        display: flex;
-        padding-top: 10%;
-        
-        grid-template-columns: repeat(4, 1fr);
-        grid:12% ;
+       padding-top: 10%;
+      grid:12% ;
         gap: 9%;
     
     }
     .buttn{
         margin:20px 40px;
         padding: 10px 15px;
-        font-weight: bold;
-        background-color: rgb(0, 38, 255);
         border-radius: 10px;
     }
     .butn{
         margin:20px 40px;
         padding: 10px 15px;
-        font-weight: bold;
-        background-color: rgb(218, 219, 223);
         border-radius: 10px;
     }
-    .b{
-    display: flex;
-    }
+  
     .beds img{
-        width:300px ;
-        height:200px ;
+        width:50px ;
+        height:50px ;
     
     }
     .ipsum{
-        padding-left: 15%;
-        padding-top: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
     }
     .meal{
-        display: flex;
-        gap:8%;
-        padding-top: 5%;
+      gap:8%;
+        padding-top: 2%;
     
     }
     .meal img{
@@ -380,74 +335,47 @@ gap: 12%;
         width: 200px;
     }
     .meals{
-    display: flex;
      padding-top: 5%; 
      gap: 8%;
     }
     .meals img{
-        height: 200px;
-        width: 200px;
+        height: 40px;
+        width: 40px;
     }
     .frenc{
-        display: flex;
-        padding-top: 10%; 
+    padding-top: 5%; 
     }
     .phot.img{
-        height: 100px;
-        width: 100px;
+        height: 30px;
+        width: 30px;
     }
     .button{
-        display: flex;
-        
-        gap: 40%;
-       
-        
-    }
+       gap: 20%;
+       }
     _.chos{
         padding-left: 20%;
         padding-top: 10%;
-       
-    }
-    
+       }
     .dolor{
-        padding-left: 10%;
+        padding-left: 5%;
     }
-    
-    body{
-        background-color: lightgrey;
-    }
-    #most{
-        padding-left: 30px;
+     #most{
+        padding-left: 15px;
     }
     .hotels{
-        padding-top:10%;
+        padding-top:4%;
     }
     .dolor img{
-    height:100px ;
-    width:100px ;
-    }
-    
-    .back{
-        text-align: center;
-        background-color: blue;
+    height:30px ;
+    width:30px ;
     }
     .heading{
-        
-        padding-top: 5%;
+    padding-top: 2%;
     }
     .lady{
     }
-    .con{
-        display: flex;
+   .footer{
+    gap: 3%;
     }
-    .footer{
-    display: flex;
-    gap: 12%;
-    
-    }
-    .ladd{
-        display: flex;
-    }
-    
-}
+    o}
 

@@ -81,6 +81,13 @@ gap: 2%;
 .meal{
     padding-left: 30%;
 }
+.button{
+    margin:10px 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: rgb(0, 38, 255);
+    border-radius: 10px;
+}
 .footer{
     display: flex;
     gap: 12%;
@@ -89,56 +96,37 @@ gap: 2%;
     
 }
 @media only screen and(max-width:400px) {
-    *{
     
-        padding: 0%;
-        margin: 0%;
-        box-sizing: border-box;
-    }
-    .body{
-        background-color:lightgray;
-        }
         .Navbar.logo a{
             font-size: 1.5rem;
-            font-weight: bold;
+           
         }
         .Navbar.links{
-            display: flex;
+            
             row-gap: 2rem;
         }
         .Navbar{
-            display: flex;
+           
             gap: 40px;
-            /* padding-top: 20%; */
             padding-left: 10;
         }
         .links{
-            display: flex;
+            
             gap: 70px;
         }
         .b{
-            
-            color: antiquewhite;
             padding: 0.5rem;
-            /* border: none;
-            outline: none; */
-            border-radius: 10%;
+           border-radius: 10%;
             font-size: 0.8rem;
-            font-weight: bold;
-            cursor: pointer;
+            
         }
         .a{
             padding: 0.5rem;
-            /* border: none;
-            outline: none; */
-            border-radius: 10%;
+           border-radius: 10%;
             font-size: 0.8rem;
-            font-weight: bold;
-            cursor: pointer; 
-        }
+           }
         .view{
-        display: flex;
-        height: 400px;
+       height: 400px;
          margin-left: 10%;
         margin-top: 150px;
         gap: 2%;
@@ -146,37 +134,25 @@ gap: 2%;
                }
         .view img{
             width: 400px;
-    
-          
-        }
+       }
     .image img{
     height: 100px;
     width: 100px;
-    display: flex;
     gap: 2%;
                }
     .vie{
-        display: flex;
         gap: 2%;
         margin: 2%;
         
     }
     .bed{
         gap: 15px;
-        display: flex;
-    }
-    .indus{
-         display: flex;
-        
-    }
-    .meal{
+       }
+     .meal{
         padding-left: 10%;
     }
     .footer{
-        display: flex;
-        gap: 12%;
+       gap: 12%;
         padding-top: 5%;
-        background-color: gray;
-        
-    }
+        }
 }
